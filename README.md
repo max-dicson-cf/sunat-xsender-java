@@ -130,10 +130,12 @@ JitPack compila el repositorio Git remoto bajo demanda; antes de solicitarlo, el
 commit debe estar publicado en GitHub y el repositorio debe ser público (o usar la
 configuración de repositorios privados de JitPack).
 
-`jitpack.yml` usa Java 17 y ejecuta:
+`jitpack.yml` usa Java 17, genera Maven Wrapper 3.9.9 en el entorno efímero de
+JitPack y ejecuta:
 
 ```bash
-mvn -B -U clean install -Ppublication -DskipTests
+mvn -N wrapper:wrapper -Dmaven=3.9.9
+./mvnw -B -U clean install -Ppublication -DskipTests
 ```
 
 El perfil `publication` adjunta los JAR de fuentes y Javadoc. JitPack no requiere

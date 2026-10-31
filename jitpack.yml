@@ -2,4 +2,5 @@ jdk:
   - openjdk17
 
 install:
-  - mvn -B -U clean install -Ppublication -DskipTests
+  - mvn -N wrapper:wrapper -Dmaven=3.9.9
+  - ./mvnw -B -U clean install -Ppublication -DskipTests
