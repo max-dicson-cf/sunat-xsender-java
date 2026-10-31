@@ -23,10 +23,10 @@
 
     <developers>
         <developer>
-            <id>carlosthe19916</id>
-            <name>Carlos Esteban Feria Vila</name>
-            <email>carlosthe19916@gmail.com</email>
-            <organization>Project OpenUBL</organization>
+            <id>max-dicson-cf</id>
+            <name>Max Dicson Condor Fernandez</name>
+            <email>max.dicson.cf@gmail.com</email>
+            <organization>Project OpenUBL Fork</organization>
             <roles>
                 <role>project-owner</role>
             </roles>
@@ -35,9 +35,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/project-openubl/xhandler</url>
-        <connection>scm:git:git://github.com/project-openubl/xhandler.git</connection>
-        <developerConnection>scm:git:git@github.com:project-openubl/xhandler.git</developerConnection>
+        <url>https://github.com/max-dicson-cf/sunat-xsender-java</url>
+        <connection>scm:git:git://github.com/max-dicson-cf/sunat-xsender-java.git</connection>
+        <developerConnection>scm:git:git@github.com:max-dicson-cf/sunat-xsender-java.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
